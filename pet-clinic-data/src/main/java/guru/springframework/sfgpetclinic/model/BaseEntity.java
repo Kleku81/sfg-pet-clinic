@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class BaseEntity implements Serializable {
 
-    private ong id;
+    private Long id;
 
-    public ong getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(ong id) {
+    public void setId(Long id) {
         this.id = id;
     }
 }
